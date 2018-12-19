@@ -1,0 +1,12 @@
+<% include partials/header %>
+<h1>Here's where all blogs be at</h1>
+
+<%posts.forEach(post => {%>
+    <div>
+        <h3><%=post.title%></h3>
+        <h6><%= post.created%></h6>
+        <img src="<%=post.image%>">
+        <p><%= post.body%></p>
+    </div>
+<%})%>
+<% include partials/footer %>
