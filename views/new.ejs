@@ -1,5 +1,26 @@
 <% include partials/header %>
 
-<h2>Here's where the new post form be at</h2>
+<div class="ui main text container segment">
+    <div class="ui huge header">
+            New Post
+    </div>
+    <form class="ui form" action="/blogs" method="post">
+        <div class="field">
+            <label>Title</label>
+            <input type="text" name="blog[title]" placeholder="Title">
+        </div>
+        <div class="field">
+            <label>Image URL</label>
+            <input type="text" name="blog[image]" placeholder="Image URL">
+        </div>
+        <div class="field">
+            <label>Post Body</label>
+            <textarea name="blog[body]" placeholder="Post content"></textarea>
+        </div>
 
-<% include partials/footer %>
+        <input class="ui button basic blue" type="submit">
+    </form>
+</div>
+
+
+<% include partials/footer %>res

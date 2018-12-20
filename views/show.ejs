@@ -1,0 +1,20 @@
+<% include partials/header %>
+
+
+
+    <div class="ui segment">
+        <h1><%= post.title%></h1>
+    </div>
+    <div class="ui segment">
+        <p>Created on <%= post.created%></p>
+    </div>
+    <div class="ui segment">
+        <img src="<%= post.image%>">
+    </div>
+    <div class="ui segment">
+        <p><%= post.body%></p>
+    </div>
+
+
+
+<% include partials/footer %>

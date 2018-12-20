@@ -7,6 +7,7 @@
         <h6><%= post.created%></h6>
         <img src="<%=post.image%>">
         <p><%= post.body%></p>
+        <a href="/blogs/<%= post._id%>" class="ui button" tabindex="0">Read more</a>
     </div>
 <%})%>
 <% include partials/footer %>
