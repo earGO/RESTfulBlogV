@@ -1,0 +1,16 @@
+i.icon {
+    font-size: 1.5em;
+}
+
+.container.main {
+    margin: 7em;
+}
+
+.styleDebug {
+    margin: 50px;
+    padding: 30px;
+}
+
+.postButton {
+    margin: 15px;
+}
